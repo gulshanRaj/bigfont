@@ -1,5 +1,5 @@
 #!/bin/bash
-read word
+word=$@;
 for j in {1..5}; do
 for (( i=0; i<${#word}; i++ )); do
 character="${word:i:1}";
